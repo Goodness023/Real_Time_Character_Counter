@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: orchid;
+  /* text-align: center; */
+  height: 100vh;
+  align-content: center;
+}
+
+/* Styling for the main content container */
+.content {
+  background-color: orangered;
+  margin: 0 30%;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: o 6px 8px regb(0, 0, 0, 0.3);
+}
+
+/* Heading styles */
+h4 {
+  font-size: 1.5rem;
+}
+
+/* Textarea styles */
+textarea {
+  resize: none;
+  width: 95%;
+  height: 100px;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+/* Counter container to align text counts */
+.counter-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* Styles for text counters */
+.counter-container p {
+  color: darkgray;
+}
+
+/* Color styles for the counters */
+.character-counter {
+  color: blueviolet;
+}
+
+.remaining-counter {
+  color: navy;
+}
